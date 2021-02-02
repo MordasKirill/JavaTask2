@@ -32,10 +32,10 @@ public class HouseholdAppliances {
             }
         }
         for (int j = 0; j<list.size(); j++) {
-            Pattern pattern1 = Pattern.compile("\\d+");
-            Matcher matcher1 = pattern1.matcher(list.get(j));
-            if (matcher1.find()) {
-                matchedList.add(matcher1.group());
+            Pattern finalePattern = Pattern.compile("\\d+");
+            Matcher finaleMatcher = finalePattern.matcher(list.get(j));
+            if (finaleMatcher.find()) {
+                matchedList.add(finaleMatcher.group());
             }
         }
         return matchedList;
