@@ -1,6 +1,6 @@
-package net.epam.study.HouseholdAppliancesTask;
+package net.epam.study.lesson2;
 
-import net.epam.study.HouseholdAppliancesTask.HouseholdAppliances;
+import net.epam.study.lesson2.HouseholdAppliances;
 
 import java.io.IOException;
 

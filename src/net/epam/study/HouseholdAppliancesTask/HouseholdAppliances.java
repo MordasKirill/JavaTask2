@@ -1,4 +1,4 @@
-package net.epam.study.HouseholdAppliancesTask;
+package net.epam.study.lesson2;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
